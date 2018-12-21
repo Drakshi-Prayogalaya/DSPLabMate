@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.grape.cprograms.activity.FriendsFragment">
+    
+   <!-- <TextView
+        android:layout_below="@id/label"
+        android:layout_centerInParent="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+
+        android:layout_marginBottom="4dp"                 android:layout_marginRight="10dp"                 android:layout_marginLeft="10dp"                 android:layout_marginTop="8dp"                 android:background="#FF9800"                 android:textColor="#FFFFFF"
+
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Edit fragment_friends.xml to change the appearance" />-->
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sampling Theorem"
+                 
+                 android:layout_marginBottom="4dp"                 android:layout_marginRight="10dp"                 android:layout_marginLeft="10dp"                 android:layout_marginTop="8dp"                 android:background="#FF9800"                 android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Impulse Response"
+                 
+                 android:layout_marginBottom="4dp"                 android:layout_marginRight="10dp"                 android:layout_marginLeft="10dp"                 android:layout_marginTop="8dp"                 android:background="#FF9800"                 android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Linear Convolution"
+                 
+                 android:layout_marginBottom="4dp"                 android:layout_marginRight="10dp"                 android:layout_marginLeft="10dp"                 android:layout_marginTop="8dp"                 android:background="#FF9800"                 android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Circular Convolution"
+                 
+                 android:layout_marginBottom="4dp"                 android:layout_marginRight="10dp"                 android:layout_marginLeft="10dp"                 android:layout_marginTop="8dp"                 android:background="#FF9800"                 android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Difference Equation"
+                 
+                 android:layout_marginBottom="4dp"                 android:layout_marginRight="10dp"                 android:layout_marginLeft="10dp"                 android:layout_marginTop="8dp"                 android:background="#FF9800"                 android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cross Correlation"
+                 
+                 android:layout_marginBottom="4dp"                 android:layout_marginRight="10dp"                 android:layout_marginLeft="10dp"                 android:layout_marginTop="8dp"                 android:background="#FF9800"                 android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Discrete Fourier Transform"
+                 
+                 android:layout_marginBottom="4dp"                 android:layout_marginRight="10dp"                 android:layout_marginLeft="10dp"                 android:layout_marginTop="8dp"                 android:background="#FF9800"                 android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parallel and Lattice Realization"
+                 
+                 android:layout_marginBottom="4dp"                 android:layout_marginRight="10dp"                 android:layout_marginLeft="10dp"                 android:layout_marginTop="8dp"                 android:background="#FF9800"                 android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Low Pass FIR Filter Design"
+                 
+                 android:layout_marginBottom="4dp"                 android:layout_marginRight="10dp"                 android:layout_marginLeft="10dp"                 android:layout_marginTop="8dp"                 android:background="#FF9800"                 android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IIR Butterworth Filter Design"
+                 
+                 android:layout_marginBottom="4dp"                 android:layout_marginRight="10dp"                 android:layout_marginLeft="10dp"                 android:layout_marginTop="8dp"                 android:background="#FF9800"                 android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Symmetric Properties of DFT"
+                 
+                 android:layout_marginBottom="4dp"                 android:layout_marginRight="10dp"                 android:layout_marginLeft="10dp"                 android:layout_marginTop="8dp"                 android:background="#FF9800"                 android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chebyshev Type-2 Filter Design"
+                 
+                 android:layout_marginBottom="8dp"                 android:layout_marginRight="10dp"                 android:layout_marginLeft="10dp"                 android:layout_marginTop="8dp"                 android:background="#FF9800"                 android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
